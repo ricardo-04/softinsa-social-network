@@ -1,0 +1,225 @@
+.background-login {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://use.fontawesome.com/releases/v5.15.4/svgs/solid/user-lock.svg');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.evento-passado .card {
+  background-color: #e3e3e3; /* Cor de fundo cinzenta */
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-google {
+  background-color: #db4437;
+  color: white;
+}
+
+.btn-google:hover {
+  background-color: #c33d30;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Arial', sans-serif;
+  color: #007bff;
+}
+
+.logo {
+  width: 30%;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+body {
+  padding-top: calc(50px + 20px);
+  /* Exemplo, ajustar conforme necessário */
+}
+
+
+
+.navbar-logo {
+  max-height: 50px;
+  margin-right: 15px;
+  width: auto;
+  /* Permite que a largura seja ajustada automaticamente */
+}
+
+
+.btn-outline-danger {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.img-fixa-locais-lista {
+  width: 100%;
+  height: 300px;
+  /* Defina a altura que você deseja para todas as imagens */
+  object-fit: cover;
+  /* Isso garantirá que a imagem cubra toda a área do elemento sem distorcer */
+  display: block;
+  /* Certifique-se de que a imagem seja exibida como um bloco */
+}
+
+.img-local-detalhes {
+  width: 100%;
+  height: 400px;
+  /* Ajuste esta altura conforme necessário */
+  object-fit: cover;
+  /* Garante que a imagem cubra toda a área do elemento sem distorcer */
+  display: block;
+  border-radius: 8px;
+  /* Adiciona bordas arredondadas, opcional */
+}
+
+
+.img-evento {
+  width: 100%;
+  height: 300px;
+  /* Ajuste a altura conforme necessário */
+  object-fit: cover;
+  /* Garante que a imagem cubra toda a área do elemento sem distorcer */
+  display: block;
+}
+
+
+.img-fixa-evento-detalhes {
+  width: 100%;
+  height: 400px;
+  /* Defina a altura que você deseja para todas as imagens */
+  object-fit: cover;
+  /* Isso garantirá que a imagem cubra toda a área do elemento sem distorcer */
+  display: block;
+  /* Certifique-se de que a imagem seja exibida como um bloco */
+  border-radius: 8px;
+}
+
+.btn-outline-danger {
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    margin: 0 auto;
+    display: block;
+    /* Garante centralização */
+  }
+}
+
+.background-register {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://use.fontawesome.com/releases/v5.15.4/svgs/solid/user-plus.svg');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dashboard.css */
+.dashboard-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.calendar-container {
+  max-width: 90%;
+  /* Define a largura máxima do contêiner do calendário */
+  margin: 0 auto;
+  /* Centraliza o contêiner horizontalmente na página */
+  padding: 20px;
+  /* Adiciona algum espaçamento ao redor do contêiner */
+  border: 1px solid #ddd;
+  /* Adiciona uma borda sutil ao redor do contêiner */
+  border-radius: 8px;
+  /* Adiciona bordas arredondadas ao contêiner */
+  background-color: #f9f9f9;
+  /* Define uma cor de fundo suave */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Adiciona uma sombra leve ao contêiner */
+}
+
+.fc {
+  width: 100% !important;
+  /* Faz com que o calendário ocupe toda a largura do contêiner */
+  max-width: 100% !important;
+  /* Impede que o calendário ultrapasse os limites do contêiner */
+  font-size: 14px;
+  /* Ajusta o tamanho da fonte do calendário */
+}
+
+.fc-toolbar-title {
+  font-size: 16px;
+  /* Ajusta o tamanho da fonte do título */
+}
+
+.fc-header-toolbar {
+  margin-bottom: 15px;
+  /* Adiciona um pequeno espaçamento abaixo da barra de ferramentas do calendário */
+}
+
+.fc-daygrid-event,
+.fc-timegrid-event {
+  font-size: 12px;
+  /* Ajusta o tamanho da fonte dos eventos */
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.chart-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(33% - 40px);
+  min-width: 300px;
+}
+
+.map-container {
+  height: 400px;
+  width: 100%;
+}
